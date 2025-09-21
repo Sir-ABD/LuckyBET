@@ -1,4 +1,11 @@
-# ⚽ LuckyBet – Decentralized Football Betting on BlockDAG  
+# ⚽ LuckyBet – Decentralized Football Betting on BlockDAG
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.x-purple)](https://vitejs.dev/)
+[![Solidity](https://img.shields.io/badge/Solidity-^0.8.24-blue)](https://soliditylang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-cyan)](https://tailwindcss.com/)
 
 **Fair, transparent, and deflationary betting powered by BlockDAG**  
 
@@ -140,15 +147,19 @@ cd contracts
 npm install
 npx hardhat compile
 npx hardhat test
-
-❤️ Acknowledgements
-
-BlockDAG ecosystem
-
-Hackathon organizers & mentors
-
-Open-source community
 npx hardhat run scripts/deploy.js --network <blockdag-network>
 cd backend
 npm install
 npm run start
+```
+
+
+## ❤️ Acknowledgements
+
+- **BlockDAG ecosystem**
+
+- **Hackathon organizers & mentors**
+
+- **Open-source community**
+
+**GitHub**: `https://github.com/Sir-ABD/LuckyBET`
