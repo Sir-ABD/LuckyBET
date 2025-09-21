@@ -18,6 +18,7 @@ LuckyBet is a decentralized football betting platform where odds are set by the 
 
 ## 🏗️ Project Structure
 
+
 ```
 LuckyBet/
 ├─ frontend/                  # React app (UI)
@@ -57,10 +58,13 @@ LuckyBet/
 │  └─ architecture.md
 │
 ├─ .github/                   # CI / workflow files (optional)
-
-```
-
 │  └─ workflows/
 ├─ .gitignore
 ├─ README.md
+
+```
+
+
+
+
 └─ LICENSE
