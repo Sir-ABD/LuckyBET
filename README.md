@@ -62,3 +62,93 @@ LuckyBet/
 ├─ .gitignore
 └─ README.md
 ```
+
+---
+
+## 📊 Tokenomics  
+
+### Commission Model  
+- **90%** → Distributed to winning bettors.  
+- **10%** → Platform commission.  
+
+### Deflationary Mechanism  
+- From the **10% commission**, LuckyBet automatically:  
+  - Buys back BDAG tokens from the open market.  
+  - Sends them to a burn address (permanently removing them).  
+
+### Why It Matters  
+- 🔥 Every bet reduces BDAG circulating supply.  
+- 📈 Creates long-term upward pressure on BDAG value.  
+- 🤝 Aligns interests of bettors, platform, and BDAG ecosystem.  
+
+---
+
+## 🏗️ How It Works  
+
+1. Bettor connects a crypto wallet.  
+2. Places a bet on a football match (e.g., Nigeria vs Brazil).  
+3. An **oracle** feeds the final score into the smart contract.  
+4. Winners receive instant payouts in BDAG.  
+5. 10% of profits are auto-burned in BDAG.  
+
+---
+
+## 📸 Demo Flow  
+
+- **Step 1:** Connect Wallet  
+- **Step 2:** Place Bet  
+- **Step 3:** Oracle Updates Score  
+- **Step 4:** Automatic Payout + Burn 🔥  
+
+
+---
+
+## 🚀 Roadmap  
+
+- ✅ Football betting MVP  
+- 🔜 Multi-sports expansion (basketball, eSports, etc.)  
+- 🔜 DAO governance for community-driven features  
+- 🔜 NFT collectibles for bettors  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** Typescript / React.js
+- **Smart Contracts:** Solidity (EVM-compatible)  
+- **Blockchain:** BlockDAG  
+- **Backend:** Node.js / php
+- **Wallet Integration:** MetaMask / WalletConnect  
+- **Oracle:** Match result data feeds  
+
+---
+
+## 📦 Installation  
+
+### Clone and Setup  
+
+```bash
+# Clone repository
+git clone https://github.com/<your-username>/LuckyBet.git
+
+# Navigate into folder
+cd LuckyBet
+cd frontend
+npm install
+npm run dev     # or npm start
+cd contracts
+npm install
+npx hardhat compile
+npx hardhat test
+
+❤️ Acknowledgements
+
+BlockDAG ecosystem
+
+Hackathon organizers & mentors
+
+Open-source community
+npx hardhat run scripts/deploy.js --network <blockdag-network>
+cd backend
+npm install
+npm run start
