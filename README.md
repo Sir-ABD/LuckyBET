@@ -60,11 +60,5 @@ LuckyBet/
 ├─ .github/                   # CI / workflow files (optional)
 │  └─ workflows/
 ├─ .gitignore
-├─ README.md
-
+└─ README.md
 ```
-
-
-
-
-└─ LICENSE
